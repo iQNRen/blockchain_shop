@@ -1,0 +1,1 @@
+export const CONTRACTS_ADDRESS = process.env.REACT_APP_CONTRACTS_ADDRESS;
