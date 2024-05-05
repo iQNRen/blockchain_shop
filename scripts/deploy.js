@@ -16,7 +16,7 @@ async function main() {
   const [deployer] = await ethers.getSigners()
 
   // Deploy Dappazon
-  const Dappazon = await hre.ethers.getContractFactory("Dappazon")
+  const Dappazon = await hre.ethers.getContractFactory("Shop")
   const dappazon = await Dappazon.deploy()
   await dappazon.deployed()
 
